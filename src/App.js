@@ -6,17 +6,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
+        <p
           className="App-link"
-          href="https://reactjs.org"
+          //href="https://reactjs.org"
+          // Opens page in a new tab
           target="_blank"
+          // Prevents the new page from interacting with the page it's being opened from 
           rel="noopener noreferrer"
         >
-          Learn React
-        </a>
+          More Coming Soon
+        </p>
       </header>
     </div>
   );
