@@ -3,7 +3,7 @@
   "version": "1.0",
   "main": "index.js",
   "homepage": "https://bobbycharms.github.io/robert-charming-portfolio/",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
