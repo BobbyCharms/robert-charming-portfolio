@@ -2,7 +2,7 @@
   "name": "robert-charming-portfolio",
   "version": "1.0",
   "main": "index.js",
-  "homepage": "https://robert-charming.github.io/robert-charming-portfolio/",
+  "homepage": "https://bobbycharms.github.io/robert-charming-portfolio/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
