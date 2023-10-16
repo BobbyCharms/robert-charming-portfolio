@@ -23,3 +23,15 @@ a:hover {
 .nav-link {
     word-spacing: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+    }
+
+    h3 {
+        font-size: small;
+    }
+}
