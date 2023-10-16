@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState } from 'react';
+// import { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';                       
 import Nav from './components/header/nav';
@@ -8,8 +8,10 @@ import Nav from './components/header/nav';
 function App() {
   return (
     <div className="App">
-      < Nav />
-      <header className="App-header">
+      <React.Fragment>
+        < Nav />
+      </React.Fragment>
+      <main className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p
           className="App-link"
@@ -21,7 +23,7 @@ function App() {
         >
           More Coming Soon
         </p>
-      </header>
+      </main>
     </div>
   );
 }
