@@ -1,25 +1,102 @@
 * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 10px;
+:root {
+    --primaryColor: #282c34;
+    --textColor: white;
+    --hoverColor: darkblue;
 }
 
-a {
-    color: inherit;
+
+header {
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 2rem;
+    background-color: var(--primaryColor);
+    color: var(--textColor);
+}
+
+nav a {
+    margin: 0 1rem;
+    color: var(--textColor);
     text-decoration: none;
-    padding: 5px;
 }
 
 a:hover {
-    color: darkblue;
-    background-color: lightblue;
-    border-radius: 0px 10px;
+    color: var(--hoverColor);
+    background-color: var(--textColor);
+    padding: 5px;
+    border-radius: 0 10px;
 }
 
-.nav-link {
-    word-spacing: 10px;
+/* header .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+} */
+
+/* @media only screen and (max-width 1024px) {
+    header .nav-btn {
+        visibility: visible;
+        opacity:1; 
+        display: block;
+    }
+
+    header nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: var(--primaryColor);
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+
+    header .responsive_nav {
+        transform: none;
+    }
+
+    nav .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+
+    }
+
+    nav a {
+        font-size: 1.5rem;
+    }
+
+} */
+
+@media screen and (max-width: 750px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        padding: 0px;
+    }
+
+    h3 {
+        font-size: small;
+        margin: 3px;
+    }
 }
