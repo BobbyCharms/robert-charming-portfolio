@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import {FaBars, FaTimes} from "react-icons/fa";
 import "./nav.css";
+import React from "react";
 
 const options = {
     weekday: 'long',
