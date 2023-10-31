@@ -1,4 +1,5 @@
 import "./nav.css";
+import React from "react";
 
 const options = {
     weekday: 'long',

@@ -3,13 +3,15 @@ import { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';                       
 import Nav from './components/header/nav';
+import Project from './components/projects/project';
 
 
 function App() {
   return (
     <div className="App">
       < Nav />
-      <header className="App-header">
+      <main className="App-header">
+        <Project />
         <img src={logo} className="App-logo" alt="logo" />
         <p
           className="App-link"
@@ -21,7 +23,7 @@ function App() {
         >
           More Coming Soon
         </p>
-      </header>
+      </main>
     </div>
   );
 }
