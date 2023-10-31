@@ -19,8 +19,8 @@
   display: flex;
   /* Commented out flex-direction to get projects to align side by side */
   /* flex-direction: column; */
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: space-evenly;
   font-size: calc(10px + 2vmin);
   color: white;
 }

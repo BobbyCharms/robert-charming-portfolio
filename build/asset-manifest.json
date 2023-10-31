@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/robert-charming-portfolio/static/css/main.758b5933.css",
-    "main.js": "/robert-charming-portfolio/static/js/main.ee81ac81.js",
+    "main.css": "/robert-charming-portfolio/static/css/main.6a99f537.css",
+    "main.js": "/robert-charming-portfolio/static/js/main.feb53883.js",
     "static/js/787.80a1044b.chunk.js": "/robert-charming-portfolio/static/js/787.80a1044b.chunk.js",
+    "static/media/jslogo.png": "/robert-charming-portfolio/static/media/jslogo.56c4b518f5cbda231d69.png",
     "static/media/logo.svg": "/robert-charming-portfolio/static/media/logo.fb6d40c2395ec44dd68e2bd94fbb7e1e.svg",
     "index.html": "/robert-charming-portfolio/index.html",
-    "main.758b5933.css.map": "/robert-charming-portfolio/static/css/main.758b5933.css.map",
-    "main.ee81ac81.js.map": "/robert-charming-portfolio/static/js/main.ee81ac81.js.map",
+    "main.6a99f537.css.map": "/robert-charming-portfolio/static/css/main.6a99f537.css.map",
+    "main.feb53883.js.map": "/robert-charming-portfolio/static/js/main.feb53883.js.map",
     "787.80a1044b.chunk.js.map": "/robert-charming-portfolio/static/js/787.80a1044b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.758b5933.css",
-    "static/js/main.ee81ac81.js"
+    "static/css/main.6a99f537.css",
+    "static/js/main.feb53883.js"
   ]
 }

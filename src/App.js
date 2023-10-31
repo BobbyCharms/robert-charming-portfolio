@@ -12,17 +12,20 @@ function App() {
       < Nav />
       <main className="App-header">
         <Project />
-        <img src={logo} className="App-logo" alt="logo" />
-        <p
-          className="App-link"
-          //href="https://reactjs.org"
-          // Opens page in a new tab
-          target="_blank"
-          // Prevents the new page from interacting with the page it's being opened from 
-          rel="noopener noreferrer"
-        >
-          More Coming Soon
-        </p>
+          <div>
+            <h3>Project Two</h3>
+            <img src={logo} className="App-logo" alt="logo" />
+            <p
+              className="App-link"
+              //href="https://reactjs.org"
+              // Opens page in a new tab
+              target="_blank"
+              // Prevents the new page from interacting with the page it's being opened from 
+              rel="noopener noreferrer"
+            >
+              More Coming Soon, So Get Excited!
+            </p>
+          </div>
       </main>
     </div>
   );

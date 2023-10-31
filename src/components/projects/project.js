@@ -8,7 +8,7 @@ function Project(props) {
         <div className="project">
             <h3>{props.name}Project One</h3>
             {/* This will be updated to a Link tag instead of the a tag to allow it to be a React Router Link */}
-            <a href="{props.link}">
+            <a href="https://www.google.com/">
                 <img src={imgeSrc} alt="Project One" />
             </a>
             <p>{props.description}This project was done with me and classmates. </p>
